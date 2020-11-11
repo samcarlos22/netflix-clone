@@ -108,3 +108,35 @@
 i {
     padding-right: 0.5rem;
 }
+
+.slider {
+    color: white;
+    background-color: black;
+}
+
+.continue-watching {
+    display: flex;
+    overflow-x: scroll;
+    /*scroll-snap-type: x mandatory;*/
+}
+
+.continue-watching img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.item {
+    padding: 0 0.2rem;
+    flex: none;
+    width: 15%;
+    height: 350px;
+    /*
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+    */
+}
+
+/*.item:hover {
+    transform: scale(1.2);
+}
+*/
